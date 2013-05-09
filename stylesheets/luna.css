@@ -1,0 +1,63 @@
+div.wrapper {
+  width: 900px;
+  margin: auto;
+}
+
+ul li {
+  display: inline;
+}
+
+img {
+  width: 100%;
+}
+
+p {
+  font-family: "ff-meta-web-pro",sans-serif;
+}
+
+body {
+  font-family: "futura-pt",sans-serif;
+}
+
+/* mini navigation at top of page */
+
+h1 {
+  font-family: "myriad-pro",sans-serif;
+  font-weight: normal;
+  text-align: left;
+}
+
+ul.mini-nav {
+  font-size: .8em;
+  padding: 33px 0 0;
+  text-align: right;
+}
+
+ul.mini-nav li {
+  margin-left: 0px;
+  padding: 0 10px;
+  border-left: 1px solid #333;
+  font-family: "proxima-nova",sans-serif;
+}
+
+ul.mini-nav li.give {
+  border: none;
+  padding: 0 0 0 10px;
+}
+
+/* main site navigation found at top of most pages */
+
+ul.main-nav {
+  text-align: left;
+  font-size: 1.1em;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+}
+
+ul.main-nav li {
+  margin-left: 0;
+  padding: 0 8px;
+  border-right: 1px solid black;
+  font-family: "proxima-nova",sans-serif;
+  
+}
