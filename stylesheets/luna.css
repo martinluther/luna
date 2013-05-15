@@ -17,47 +17,121 @@ p {
 
 body {
   font-family: "futura-pt",sans-serif;
+  background: url('/img/sw.png') repeat;
 }
 
 /* mini navigation at top of page */
 
-h1 {
+div.masthead {
+  padding-bottom: 0;
+  margin: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.masthead h1 {
   font-family: "myriad-pro",sans-serif;
-  font-weight: normal;
+  font-weight: 600;
   text-align: left;
+  font-size: 2.2em;
+  color: #bc132e;
 }
 
 ul.mini-nav {
-  font-size: .8em;
-  padding: 33px 0 0;
+  font-size: .9em;
+  padding: 35px 0 0;
   text-align: right;
 }
 
 ul.mini-nav li {
   margin-left: 0px;
-  padding: 0 10px;
-  border-left: 1px solid #333;
+  padding: 0 5px;
+  border-left: 1px solid #9f9f9f;
   font-family: "proxima-nova",sans-serif;
+  color: #696969;
+}
+
+ul.mini-nav li.first {
+  border-left: 0;
 }
 
 ul.mini-nav li.give {
-  border: none;
-  padding: 0 0 0 10px;
+  border: 0px solid;
+  border-radius: 5px;
+  background: #bc123e;
+  padding: 5px;
+  margin: 0 0 0 5px;
+  font-weight: 600;
+  color: #f9f9f9;
+}
+
+/* homepage navigation including large image */
+
+div.grid-container.homepage-nav-container {
+  padding-bottom: 10px;
+}
+
+div.homepage-nav {
+  border-radius: 5px 5px 0 0;
+  border: 2px solid #fff;
+  padding-top: 0;
+  padding-bottom: 0;
+  background: #333;
+  box-shadow: 0px 0px 2px 0px #666;
 }
 
 /* main site navigation found at top of most pages */
 
-ul.main-nav {
-  text-align: left;
-  font-size: 1.1em;
-  text-transform: uppercase;
-  margin-bottom: 0px;
+div.main-nav {
 }
 
-ul.main-nav li {
+div.main-nav ul {
+  text-align: left;
+  font-size: .9em;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+  padding: 0;
+}
+
+div.main-nav ul li {
   margin-left: 0;
-  padding: 0 8px;
-  border-right: 1px solid black;
+  padding: 10px;
+  border-right: 1px solid #969696;
   font-family: "proxima-nova",sans-serif;
-  
+  font-weight: 400;
+  color: #f9f9f9;
+}
+
+div.main-nav li.last {
+  border: 0;
+}
+
+/* middle wells */
+
+div.well {
+  padding: 0 10px 0 0;
+  width: 212.98px;
+  float: left;
+}
+
+div.well.last {
+  padding: 0;
+}
+
+div.well div.interior {
+  border: 2px solid #fff;
+  box-shadow: 0px 0px 2px 0px #666;
+  background: #f9f9f9;
+}
+
+div.well div.interior h1 {
+  background: #333;
+  text-align: left;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  color: #f9f9f9;
+  font-family: "proxima-nova",sans-serif;
+  font-weight: normal;
+  padding: 5px 10px;
+  border-right: 10px solid #1168a9;
 }
