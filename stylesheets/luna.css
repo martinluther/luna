@@ -1,10 +1,9 @@
 div.wrapper {
-  width: 900px;
+  width: 940px;
   margin: auto;
 }
 
 ul li {
-  display: inline;
 }
 
 img {
@@ -12,12 +11,15 @@ img {
 }
 
 p {
-  font-family: "ff-meta-web-pro",sans-serif;
 }
 
 body {
-  font-family: "futura-pt",sans-serif;
+  font-family: "helvetica","arial",sans-serif;
   background: url('/img/sw.png') repeat;
+}
+
+h1 {
+  font-family: "proxima-nova",sans-serif;
 }
 
 /* mini navigation at top of page */
@@ -26,7 +28,6 @@ div.masthead {
   padding-bottom: 0;
   margin: 0;
   padding-top: 0;
-  padding-bottom: 0;
 }
 
 .masthead h1 {
@@ -39,7 +40,7 @@ div.masthead {
 
 ul.mini-nav {
   font-size: .9em;
-  padding: 35px 0 0;
+  padding-top: 35px;
   text-align: right;
 }
 
@@ -49,6 +50,7 @@ ul.mini-nav li {
   border-left: 1px solid #9f9f9f;
   font-family: "proxima-nova",sans-serif;
   color: #696969;
+  display: inline;
 }
 
 ul.mini-nav li.first {
@@ -100,22 +102,15 @@ div.main-nav ul li {
   font-family: "proxima-nova",sans-serif;
   font-weight: 400;
   color: #f9f9f9;
+  display: inline;
 }
 
 div.main-nav li.last {
-  border: 0;
 }
 
 /* middle wells */
 
 div.well {
-  padding: 0 10px 0 0;
-  width: 212.98px;
-  float: left;
-}
-
-div.well.last {
-  padding: 0;
 }
 
 div.well div.interior {
@@ -132,6 +127,55 @@ div.well div.interior h1 {
   color: #f9f9f9;
   font-family: "proxima-nova",sans-serif;
   font-weight: normal;
-  padding: 5px 10px;
   border-right: 10px solid #1168a9;
+  padding: 5px 20px 5px 10px;
+  margin-bottom: 0;
+}
+
+div.well div.interior article h2 {
+  font-size: 1.1em;
+  text-align: left;
+  padding: 0 5px;
+  margin: 10px 0 0;
+}
+
+div.well div.interior article p {
+  font-size: .9em;
+  color: #969696;
+  padding: 0 5px;
+  text-align: left;
+}
+
+/* footer */
+
+div.footer {
+  background: #333;
+  color: #f9f9f9;
+}
+
+div.footer p {
+  text-align: left;
+  font-size: .9em;
+  padding: 0 5px;
+}
+
+div.footer h1 {
+  text-align: left;
+  font-family: "proxima-nova",sans-serif;
+  margin: 0;
+  font-size: 1.2em;
+  font-weight: normal;
+  text-transform: uppercase;
+  padding: 10px 5px 5px;
+  color: #9f9f9f;
+}
+
+div.footer ul {
+  text-align: left;
+  list-style: none;
+}
+
+div.footer ul li {
+  margin: 0;
+  padding: 0 5px;
 }
